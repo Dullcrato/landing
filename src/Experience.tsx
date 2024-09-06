@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Experience() {
   const cubeRef = React.useRef<any>()
-  useFrame((state, delta) => {
+  useFrame((_state, delta) => {
     if (cubeRef.current) {
       cubeRef.current.rotation.y += delta * 0.03
     }
