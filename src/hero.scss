@@ -1,0 +1,38 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 0.5vw 0;
+  position: relative;
+
+  h2 {
+    font-size: 1.6666666667vw;
+    letter-spacing: -0.04em;
+    line-height: 0.95;
+    padding: 0 1.5625vw;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100vw;
+
+  h1 {
+    font-size: 15vw;
+    font-stretch: extra-expanded;
+    font-family: system-ui;
+    line-height: 0.8;
+    letter-spacing: -10px;
+    position: relative;
+    font-weight: 900;
+    color: #FF4D00;
+    transform: scaleY(0.70);
+    margin: 0;
+  }
+}
